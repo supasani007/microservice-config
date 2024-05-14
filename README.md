@@ -45,11 +45,16 @@
     2. Driver has all the drivers used for this project which includes chrome and firefox drivers
     3. Logs stores all the logs generated in the project in the app.log file
     4. test/java/com/calculator:
+
         A. Interfaces: includes all the interfaces to run different test suites 
+
         B. PageObject: includes page object class for calcualtor with all the methods defined for different operations and 
                        basetest class to initiate drivers, set up the browser and setup and teardown methods
+        
         C. Tests: includes classes for all tests defined the feature section above
+        
         D. TestSuites: currently has 2 test suites ComplexTestSuite: with tests categorized as complex and SmokeTestSuite: with tests categorized as smoke or happy path tests in the test classes
+        
         E. Utilities: includes configreader: to read the configuration file values, 
                           retrytestwatcher: to retry test a given number of times,
                           screenshotonfailure: take screenshot on test failure 
