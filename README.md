@@ -6,7 +6,8 @@
    pattern by using tools such has Java, JUnit, Selenium.
 
 - **Table of Contents**:
-
+   A. ***Features***:
+  
 - **Features**:
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
         A. Addition
