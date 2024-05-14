@@ -12,14 +12,21 @@
   
 - <a name="Features">Features</a>
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
-        A. Addition
-        B. Subtraction
-        C. Multiplication
-        D. Division
-        E. Edge cases
-    2. It has a test retry feature which retries every test 2 times before considering it as a failure.
-    3. It takes screenshots of the failing tests and stores them in the screenshot directory.
-    4. It logs the test results and also which method has been executed.
+        A. Addition: basic addition, addition with zero, add positive and negative integer, add 2 negative integers, add 2 decimal numbers, add with result exceeding the display limit, add after clearing calculator
+        
+        B. Subtraction: basic subtraction, subtraction with zero, subtract 2 negative integers, subtract 2 decimal numbers, subtract with result exceeding the display limit, subtract after clearing calculator
+        
+        C. Multiplication: basic multiplication, multiply with zero, multiply with negative integers, multiply 2 decimal numbers, multiply with result exceeding the display limit, multiply after clearing calculator
+        
+        D. Division: basic division, division with one, division by zero, divide positive and negative integers, divide 2 negative integers, divide 2 decimal numbers, divide with result exceeding the display limit, divide after clearing calculator
+        
+        E. Edge cases: test error expression, test for very large number, test for extreme negative number, test for very small number
+        
+        F. Test combination: test multiple operations
+       
+    3. It has a test retry feature which retries every test 2 times before considering it as a failure.
+    4. It takes screenshots of the failing tests and stores them in the screenshot directory.
+    5. It logs the test results and also which method has been executed.
 
 
 - <a name="Installation">Installation</a>
