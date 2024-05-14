@@ -46,12 +46,12 @@
     4. Uncomment {"firefox"} line in BaseClass file to run the tests on both chrome and firefox
 
 - <a name="Todo">Todo</a>:
-    1. Add another section for code coverage with test success and failures over a period of time
-    2. Add more test suites under the com.calculator.testsuites directory
+    1. Add a section for code coverage with test success and failures over a period of time
+    2. Add more test suites under the com.calculator.testsuites directory based on the requirement
     3. Add utility classes for test data driven testing 
     4. Add support for more drivers such as IE, Edge, etc. 
     5. Add support for sauce labs so as to enable tests to run on a remote machine with multiple browser and OS combination
-    
+
 
 
 
