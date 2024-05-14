@@ -8,8 +8,9 @@
 - **Table of Contents**:
    1. [Features](#Features)
    2. [Installation](#Installation)
-   3. [Usage](#Usage)
-   4. [Todo](#Todo)
+   3. [Project Structure](#Project Structure)
+   4. [Usage](#Usage)
+   5. [Todo](#Todo)
   
 - <a name="Features">Features</a>:
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
@@ -38,6 +39,21 @@
     4. Right click on pom.xml and reload project to install all the dependencies needed to the tests
     5. Download latest chrome driver from https://googlechromelabs.github.io/chrome-for-testing/#stable
     6. Download latest firefox driver from https://github.com/mozilla/geckodriver/releases
+
+- <a name="Project Structure">Project Structure</a>:
+    1. Configuration directory has all the hardcoded values in the configuration.properties file
+    2. Driver has all the drivers used for this project which includes chrome and firefox drivers
+    3. Logs stores all the logs generated in the project in the app.log file
+    4. test/java/com/calculator:
+        A. Interfaces: includes all the interfaces to run different test suites 
+        B. PageObject: includes page object class for calcualtor with all the methods defined for different operations and 
+                       basetest class to initiate drivers, set up the browser and setup and teardown methods
+        C. Tests: includes classes for all tests defined the feature section above
+        D. TestSuites: currently has 2 test suites ComplexTestSuite: with tests categorized as complex and SmokeTestSuite: with tests categorized as smoke or happy path tests in the test classes
+        E. Utilities: includes configreader: to read the configuration file values, 
+                          retrytestwatcher: to retry test a given number of times,
+                          screenshotonfailure: take screenshot on test failure 
+
 
 - <a name="Usage">Usage</a>: Follow these steps on how to run the tests individually and as a group:
     1. Right click on the any test class under com.calculator.tests to run an individual test class or test case
