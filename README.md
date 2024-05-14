@@ -25,9 +25,9 @@
         
         F. Test combination: test multiple operations
        
-    3. It has a test retry feature which retries every test 2 times before considering it as a failure.
-    4. It takes screenshots of the failing tests and stores them in the screenshot directory.
-    5. It logs the test results and also which method has been executed.
+    3. Test retry feature which retries every test 2 times before considering it as a failure.
+    4. Takes screenshots of the failing tests and stores them in the screenshot directory.
+    5. Logs the test results and also which method has been executed and store the logs in logs/app.log file.
 
 
 - <a name="Installation">Installation</a>
