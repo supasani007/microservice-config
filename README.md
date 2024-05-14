@@ -8,6 +8,7 @@
 - **Table of Contents**:
    1. [Features](#Features)
    2. [Installation](#Installation)
+   3. [Usage](#Usage)
   
 - <a name="Features">Features</a>
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
@@ -29,13 +30,10 @@
     5. Download latest chrome driver from https://googlechromelabs.github.io/chrome-for-testing/#stable
     6. Download latest firefox driver from https://github.com/mozilla/geckodriver/releases
 
-
-- **Usage**: Follow these steps on how to run the tests individually and as a group
+- <a name="Usage">Usage</a>: Follow these steps on how to run the tests individually and as a group
     1. Right click on the any test class under com.calculator.tests to run an individual test class or test case
     2. Right click on the directory com.calculator.tests to run all tests together
     3. Right click on the testsuite classes under the com.calculator.testsuites directory to run different test suites
-
-- **Configuration**: Describe any configuration options or settings that users may need to adjust.
-- **Contributing**: Provide guidelines for contributing to the project.
+    4. Uncomment {"firefox"} line in BaseClass file to run the tests on both chrome and firefox
 
 
