@@ -6,8 +6,8 @@
    pattern by using tools such has Java, JUnit, Selenium.
 
 - **Table of Contents**:
-   A. [Features](#Features)
-   B. [Installation](#Installation)
+   1. [Features](#Features)
+   2. [Installation](#Installation)
   
 - <a name="Features">Features</a>
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
