@@ -9,7 +9,7 @@
    A. [Features](#Features)
    B. [Installation](#Installation)
   
-- #<a name="Features"></a>**Features
+- <a name="Features">**Features</a>
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
         A. Addition
         B. Subtraction
