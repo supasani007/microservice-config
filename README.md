@@ -8,7 +8,7 @@
 - **Table of Contents**:
    1. [Features](#Features)
    2. [Installation](#Installation)
-   3. [Project Structure](#Project Structure)
+   3. [Project Structure](#ProjectStructure)
    4. [Usage](#Usage)
    5. [Todo](#Todo)
   
@@ -40,7 +40,7 @@
     5. Download latest chrome driver from https://googlechromelabs.github.io/chrome-for-testing/#stable
     6. Download latest firefox driver from https://github.com/mozilla/geckodriver/releases
 
-- <a name="Project Structure">Project Structure</a>:
+- <a name="ProjectStructure">Project Structure</a>:
     1. Configuration directory has all the hardcoded values in the configuration.properties file
     2. Driver has all the drivers used for this project which includes chrome and firefox drivers
     3. Logs stores all the logs generated in the project in the app.log file
