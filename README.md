@@ -12,6 +12,7 @@
   
 - <a name="Features">Features</a>
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
+
         A. Addition: basic addition, addition with zero, add positive and negative integer, add 2 negative integers, add 2 decimal numbers, add with result exceeding the display limit, add after clearing calculator
         
         B. Subtraction: basic subtraction, subtraction with zero, subtract 2 negative integers, subtract 2 decimal numbers, subtract with result exceeding the display limit, subtract after clearing calculator
