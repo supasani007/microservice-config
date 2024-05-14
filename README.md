@@ -2,7 +2,7 @@
 
 - **Brief project description**:
    This project contains automated end to end test suites that tests the functionality of the calculator component on Google.
-   Theses tests are written considering that the calculator only has the buttons *0123456789.=+-×÷AC/CE* using the page factory design
+   Theses tests are written considering that the calculator only has the buttons **0123456789.=+-×÷AC/CE** using the page factory design
    pattern by using tools such has Java, JUnit, Selenium.
 
 - **Table of Contents**:
