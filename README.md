@@ -9,7 +9,7 @@
    A. [Features](#Features)
    B. [Installation](#Installation)
   
-- #<a name="Features"></a> Features
+- #<a name="Features"></a>**Features
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
         A. Addition
         B. Subtraction
@@ -21,7 +21,7 @@
     4. It logs the test results and also which method has been executed.
 
 
-- #<a name="Installation"></a> Installation
+- #<a name="Installation"></a>**Installation
     1. Download the project
     2. Open it using any of the IDEs say IntelliJ
     3. Make sure to have the latest chrome and firefox version running locally as test runs on those
