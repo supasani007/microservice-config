@@ -9,6 +9,7 @@
    1. [Features](#Features)
    2. [Installation](#Installation)
    3. [Usage](#Usage)
+   4. [Todo](#Todo)
   
 - <a name="Features">Features</a>:
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
@@ -26,8 +27,8 @@
         F. Test combination: test multiple operations
        
     3. Test retry feature which retries every test 2 times before considering it as a failure.
-    4. Takes screenshots of the failing tests and stores them in the screenshot directory.
-    5. Logs the test results and also which method has been executed and store the logs in logs/app.log file.
+    4. Logs the test results and also which method has been executed and store the logs in logs/app.log file.
+    5. Takes screenshots of the failing tests and stores them in the screenshot directory.
 
 
 - <a name="Installation">Installation</a>:
@@ -43,5 +44,14 @@
     2. Right click on the directory com.calculator.tests to run all tests together
     3. Right click on the testsuite classes under the com.calculator.testsuites directory to run different test suites
     4. Uncomment {"firefox"} line in BaseClass file to run the tests on both chrome and firefox
+
+- <a name="Todo">Todo</a>:
+    1. Add another section for code coverage with test success and failures over a period of time
+    2. Add more test suites under the com.calculator.testsuites directory
+    3. Add utility classes for test data driven testing 
+    4. Add support for more drivers such as IE, Edge, etc. 
+    5. Add support for sauce labs so as to enable tests to run on a remote machine with multiple browser and OS combination
+    
+
 
 
