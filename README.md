@@ -2,7 +2,7 @@
 
 - **Brief project description**:
    This project contains automated end to end test suites that tests the functionality of the calculator component on Google.
-   Theses tests are written considering that the calculator only has the buttons 0123456789.=+-×÷AC/CE using the page factory design
+   Theses tests are written considering that the calculator only has the buttons *0123456789.=+-×÷AC/CE* using the page factory design
    pattern by using tools such has Java, JUnit, Selenium.
 
 - **Table of Contents**:
@@ -10,7 +10,7 @@
    2. [Installation](#Installation)
    3. [Usage](#Usage)
   
-- <a name="Features">Features</a>
+- <a name="Features">Features</a>:
     1. This project includes tests for different operations that can be performed on a google calculator which includes:
 
         A. Addition: basic addition, addition with zero, add positive and negative integer, add 2 negative integers, add 2 decimal numbers, add with result exceeding the display limit, add after clearing calculator
@@ -30,7 +30,7 @@
     5. Logs the test results and also which method has been executed and store the logs in logs/app.log file.
 
 
-- <a name="Installation">Installation</a>
+- <a name="Installation">Installation</a>:
     1. Download the project
     2. Open it using any of the IDEs say IntelliJ
     3. Make sure to have the latest chrome and firefox version running locally as test runs on those
@@ -38,7 +38,7 @@
     5. Download latest chrome driver from https://googlechromelabs.github.io/chrome-for-testing/#stable
     6. Download latest firefox driver from https://github.com/mozilla/geckodriver/releases
 
-- <a name="Usage">Usage</a>: Follow these steps on how to run the tests individually and as a group
+- <a name="Usage">Usage</a>: Follow these steps on how to run the tests individually and as a group:
     1. Right click on the any test class under com.calculator.tests to run an individual test class or test case
     2. Right click on the directory com.calculator.tests to run all tests together
     3. Right click on the testsuite classes under the com.calculator.testsuites directory to run different test suites
