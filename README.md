@@ -31,7 +31,7 @@
     5. Takes screenshots of the failing tests and stores them in the screenshot directory.
 
 
-- <a name="Installation">Installation</a>:
+- <a name="Installation">Download and Installation</a>:
     1. Download the project
     2. Open it using any of the IDEs say IntelliJ
     3. Make sure to have the latest chrome and firefox version running locally as test runs on those
